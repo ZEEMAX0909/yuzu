@@ -1,0 +1,16 @@
+{
+  "name": "Yuzu Dev",
+  "image": "mcr.microsoft.com/devcontainers/cpp:bullseye",
+  "features": {
+    "cmake": "latest",
+    "vulkan-sdk": "latest"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools"
+      ]
+    }
+  }
+}
