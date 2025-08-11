@@ -1,9 +1,9 @@
 {
-  "name": "Yuzu Dev",
   "image": "mcr.microsoft.com/devcontainers/cpp:bullseye",
   "features": {
-    "cmake": "latest",
-    "vulkan-sdk": "latest"
+    "ghcr.io/devcontainers/features/cmake:1": {},
+    "ghcr.io/devcontainers/features/ninja:1": {},
+    "ghcr.io/devcontainers/features/gcc:1": {}
   },
   "customizations": {
     "vscode": {
